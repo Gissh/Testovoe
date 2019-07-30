@@ -14,7 +14,7 @@ class SiteController extends Controller
 {
 
     public function actionMainpage(){
-        $comments=Comments::find()->all();
+        $comments=Comments::find()->orderBy('id DESC')->all();
         
         $model=new CommentForm();
         
