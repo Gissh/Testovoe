@@ -1,0 +1,158 @@
+html,
+body {
+    height: 100%;
+    background-color: #eeeeee;
+    font-family: 'roboto';
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.mainContainer {
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.red {
+    color: red;
+}
+
+header {
+    background-image: url('/basic/web/images/headerbg.png');
+    height: 233px;
+    padding: 30px;
+}
+
+.headerLogo {
+    float: right;
+    order: 1;
+}
+
+.footerLogo {
+    order: -1;
+    width: 101px;
+    height: 106px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerInfo {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerInfo > h5 {
+    margin-top: 0;
+}
+
+.footerInfo {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.footerInfo > h5 {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.headerComment {
+    margin-top: auto;
+    font-size: 48px;
+    font-weight: 300;
+    margin-left: -4px;
+    margin-bottom: 0;
+}
+
+.footerComment {
+    margin-top: auto !important;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer > .container {
+    display: flex;
+}
+
+
+
+.commentsBlock {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.commentBody {
+    font-size: 14px;
+}
+
+.commentOwner {
+    font-size: 16px;
+}
+
+.commentTime {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.comment {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.createComment {
+    width: 480px;
+}
+
+.customInput {
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.customInput:focus {
+    background-color: white;
+    border: none;
+    box-shadow: none;
+}
+
+.customBtn {
+    float: right;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.customBtn:hover {
+    background-color: white;
+}
+
+.createComment > h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
